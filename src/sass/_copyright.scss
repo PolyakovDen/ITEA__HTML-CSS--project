@@ -1,0 +1,15 @@
+.copyright {
+    &__information {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        @include display-flex;
+        align-items: center;
+    }
+
+    &__description {
+        max-width: 660px;
+        line-height: 18px;
+        @include description;
+        font-size: 13px;
+    }
+}

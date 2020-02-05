@@ -1,0 +1,75 @@
+.advantages {
+    	background: #e8ebf1;
+    	border-bottom: 1px #d9d9d9 solid;
+    
+    &__list {
+        @include display-flex;
+    }
+
+    &__item {
+        padding-top: 60px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        max-width: 220px;
+        font-size:12px;
+        line-height: 20px;
+    }
+
+    &__header {
+        display: flex;
+    }
+
+    &__title {
+	    @include style-h2;
+	    padding-top: 4px;
+	    padding-left: 20px;
+    }
+
+    &__logo {
+        width: 40px;
+        height: 40px;
+        background-color: $light-blue;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &--first {
+            background-image: url(../img/advantage-1.png);
+        }
+
+        &--second {
+            background-image: url(../img/advantage-2.png);
+        }
+
+        &--third {
+            background-image: url(../img/advantage-3.png);
+        }
+
+        &--fourth {
+            background-image: url(../img/advantage-4.png);
+        }
+    }
+
+    &__description {
+	    padding-top: 13px;
+	    padding-bottom: 21px;
+	    font-size: 13px;
+    }
+
+    &__link {
+        margin-top: auto;
+        font-size: 13px;
+        color: $light-blue;
+
+        &:hover {
+            color: $black;
+            font-size: 15px;
+        }
+    }
+
+    &__angle {
+	color: $black;
+	padding-right: 7px;
+    }
+}

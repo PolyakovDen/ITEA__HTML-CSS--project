@@ -1,0 +1,13 @@
+.about-us {
+    max-width: 235px;
+    
+    &__title {
+        @include style-h2;
+    }
+
+    &__description {
+        @include description;
+        padding-top: 25px;
+	line-height: 16px;
+    }
+}

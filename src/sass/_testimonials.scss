@@ -1,0 +1,26 @@
+.testimonials {
+    max-width: 435px;
+
+    &__header {
+        display: flex;
+    }
+
+    &__title {
+        padding-left: 15px;
+        padding-top: 5px;
+        @include style-h2;
+    }
+
+    &__description {
+        padding-top: 12px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    &__cite {
+        display: block;
+        padding-top: 28px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}

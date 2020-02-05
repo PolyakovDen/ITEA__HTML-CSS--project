@@ -1,0 +1,12 @@
+.footer {
+    background-color: #e8ebf1;
+    
+    &-information {
+        padding-top: 32px;
+    }
+    
+    &-information__wrapper {
+        @include display-flex;
+    }
+}
+

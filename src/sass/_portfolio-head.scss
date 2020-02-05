@@ -1,0 +1,13 @@
+.portfolio-head {
+    display: flex;
+	padding-top: 40px;
+	padding-bottom: 11px;
+	align-items: center;
+    border-bottom: 1px solid #e0e1e5;
+    
+    &__title {
+        margin: 0;
+        padding-left: 10px;
+        @include style-h2;
+    }
+}

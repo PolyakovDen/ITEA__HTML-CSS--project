@@ -1,0 +1,17 @@
+.browse {
+    max-width: 120px;
+    
+    &__title {
+        @include style-h2;
+    }
+
+    &__nav-link {
+        @include description;
+        display: block;
+	padding-top: 12px;
+
+        &:hover {
+            color: $light-blue;
+        }
+    }
+}

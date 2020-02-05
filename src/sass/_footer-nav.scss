@@ -1,0 +1,22 @@
+.footer-nav-browse__wrapper {
+	display: flex;
+}
+
+.footer-nav {
+    max-width: 75px;
+    margin-right: 85px;
+    
+    &__title {
+        @include style-h2;
+    }
+
+    &__link {
+        @include description;
+        display: block;
+        padding-top: 12px;
+        
+        &:hover {
+            color: $light-blue;
+        }
+    }
+}

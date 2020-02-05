@@ -1,0 +1,37 @@
+.main-slider {
+    background-color: #81e4ed;
+    
+    &__item {
+        padding-top: 20px;
+    }
+
+    &__img {
+        max-width: 100%;
+	    margin: auto;
+	}
+
+    &__check-box {
+        max-width: 142px;
+	    margin:0 auto;
+	    padding-top: 10px;
+        padding-bottom: 15px;
+        
+        &-list {
+            display: flex;
+	        justify-content: space-between;
+        }
+
+        &-item {
+            width: 15px;
+	        height: 15px;
+	        border-radius: 50%;
+            background-color: #71a3a7;
+            
+            &:hover {
+                background-color: $white;
+            }
+        }
+    }
+
+
+}

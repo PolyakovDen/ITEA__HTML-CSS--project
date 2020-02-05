@@ -1,0 +1,21 @@
+.social-networks{
+    max-width: 187px;
+
+    &__title {
+		@include style-h2;
+		padding-bottom: 20px;
+    }
+    
+    &__list {
+        @include display-flex;
+    }
+
+    &__item {
+        padding-bottom: 10px;
+    }
+
+    &__logo:hover {
+        transform: scale(1.1);
+    }
+
+}

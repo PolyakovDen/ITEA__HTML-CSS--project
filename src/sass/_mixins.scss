@@ -1,0 +1,21 @@
+@mixin display-flex {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@mixin style-h2 {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@mixin description {
+	font-size: 14px;
+	color: #363636;
+}
+
+@mixin flex-column {
+	flex-direction: column;
+	justify-content: center;
+}

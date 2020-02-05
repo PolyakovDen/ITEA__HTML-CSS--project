@@ -1,0 +1,35 @@
+.portfolio-examples {
+	padding-bottom: 40px;
+    @include display-flex;
+    
+    &__holder {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    &__block {
+        position: absolute;
+        background-color: $light-blue;
+        display: none;
+        height: 80px;
+        left: 0;
+        bottom:0;
+        right:0;
+        text-align: center;
+    }
+
+    &__link-img {
+        display: inline-block;
+    }
+
+    &__link {
+        display: inline-block;
+        margin-top: 25px;
+        padding-left: 15px;
+    }
+
+}
+
+.portfolio-examples__holder:hover .portfolio-examples__block {
+	display: block;
+}

@@ -1,0 +1,223 @@
+@media (min-width : 320px) and (max-width : 650px) {
+	.header__wrapper{
+		@include flex-column;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.active {
+		box-shadow: none;
+	}
+
+    .main-navigation{
+        &__list {
+            flex-direction: column;
+            padding-top: 20px;
+        }
+
+        &__item {
+            text-align: center;
+            padding-left: 0;
+        }
+
+        &__submenu-item{
+            text-align: left;
+        }
+    }
+
+	.main-slider__container--fully {
+		max-width: 98%;
+    }
+    
+    .advantages {
+        &__list {
+            @include flex-column;
+        }
+
+        &__descriprtion {
+            text-align: center;
+        }
+
+        &__item {
+            padding-top: 30px;
+            padding-bottom: 20px;
+            margin: auto;
+        }
+    }
+
+    .our-works {
+        &__slider {
+            padding-top: 0;
+            padding-bottom: 20px;
+        }
+
+        &__list {
+            @include flex-column;
+        }
+
+        &__item {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            margin: auto;
+        }
+    }
+
+
+	.our-clients__wrapper {
+		@include flex-column;
+		align-items: center;
+	}
+	
+	.testimonials__cite {
+		padding-top: 15px;
+	}
+
+	.testimonials {
+		padding-bottom: 40px;
+	}
+
+	.our-clients__list {
+		@include flex-column;
+    }
+    
+    .download-psd {
+        &__item {
+            padding: 20px;
+            flex-direction: column;
+        }
+
+        &__description {
+            padding-bottom: 20px;
+        }
+
+        &__button {
+            justify-content: center;
+        }
+
+        &__link {
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        &__icon {
+            padding-right: 10px;
+        }
+    }
+
+	.footer-information__wrapper {
+		@include flex-column;
+	}
+
+	.about-us,
+	.footer-nav-browse__wrapper,
+	.contact-us,
+	.social-networks {
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.footer-nav {
+		margin-right: 3.3rem;
+	}
+
+	.social-networks__title {
+		text-align: center;
+	}
+
+	.social-networks__title {
+		@include flex-column;
+	}
+
+	.copyright__information {
+		@include flex-column;
+	}
+
+	.copyright__description {
+		padding-bottom: 20px;
+	}
+}
+
+@media (min-width : 650px) and (max-width : 1000px) {
+	.active {
+		box-shadow: none;
+	}
+	
+	.header__wrapper {
+		flex-direction: column;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		justify-content: center;
+	}
+
+    .main-navigation {
+        &__list {
+            padding-top: 30px;
+			padding-bottom: 10px;
+        }
+    }
+
+	.main-slider__container--fully {
+		max-width: 90%;
+	}
+
+	.advantages__list {
+		justify-content: space-around;
+	}
+
+	.advantages__item {
+		padding-top: 20px;
+	}
+
+	.our-works__img-work {
+		padding-top: 30px;
+	}
+
+	.testimonials__cite {
+		padding-top: 15px;
+		padding-bottom: 35px;
+	}
+
+	.our-works__header {
+		justify-content: space-around;
+	}
+	
+	.our-clients__wrapper {
+		@include flex-column;
+		align-items: center;
+	}
+	
+	.our-works__list {
+		justify-content: space-around;
+	}
+    
+    .download-psd {
+        &__description {
+			padding-bottom: 20px;
+			text-align: center;
+			margin: auto;
+        }
+
+        &__item {
+            padding: 30px;
+            flex-direction: column;
+        }
+
+        &__button {
+            justify-content: center;
+        }
+	}
+	
+	.footer-information__wrapper {
+		justify-content: space-around;
+	}
+
+	.copyright__information {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.copyright__description {
+		padding-bottom: 20px;
+	}
+}
+

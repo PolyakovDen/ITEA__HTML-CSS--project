@@ -1,0 +1,22 @@
+.portfolio-nav {
+    padding-top: 14px;
+	padding-bottom: 11px;
+    border-bottom: 1px solid #e0e1e5;
+    
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        display: block;
+        box-sizing: border-box;
+        font-size: 14px;
+        padding: 10px 16px;
+        color: $black;
+
+        &:hover {
+            background-color: #81e4ed;
+        }
+    }
+}
